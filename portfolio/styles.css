@@ -1,0 +1,197 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    flex-wrap: wrap; 
+    margin-top: 0px; 
+}
+
+.text {
+    flex: 1; 
+    padding: 0px; 
+    font-weight: 400;
+    font-size: large;
+}
+
+.image {
+    flex: 1; 
+    text-align: right; 
+    padding: 0px;
+    margin-top: 0px; 
+}
+
+
+.image .header {
+    text-align: right;
+}
+
+.image img {
+    max-width: 100%; 
+    width: 100%; 
+    height: auto;
+    margin-top: 0px;
+
+}
+
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column; 
+    }
+
+    .text,
+    .image {
+        text-align: center; 
+        padding: 10px; 
+    }
+
+    .image img {
+        max-width: 80%;
+        margin-top: 0px; 
+    }
+}
+
+
+.container1 {
+
+    background-color:#f0f0f0 ;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: -10%;
+    height: 350px;
+    position:static;
+    
+}
+
+.container1 h1{
+
+    position:absolute;
+    bottom: 20px;
+    left: 50px;
+    width: 300px;
+    padding: 5px;
+    font-size: 35px;
+}
+
+.container1 h3{
+
+    position:absolute;
+   bottom: 5px;
+    left: 50px;
+    padding: 5px;
+    color: #B22222;
+    margin-bottom: 5px;
+}
+
+
+.container1 h5{
+   
+    text-align: center;
+    font-size: 13px;
+
+}
+
+  
+.header h1 {
+    font-size: 36px;
+}
+
+
+
+.container2 {
+    padding-top: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 20px;
+}
+
+.left-column, .right-column {
+    width: 48%;
+}
+
+.left-column h3, .right-column h3 {
+    font-size: 24px;
+    color: #B22222;
+}
+
+.left-column ul, .right-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-column li, .right-column li {
+    margin-bottom: 20px;
+}
+
+.left-column li .date, .right-column li .date {
+    font-size: 16px;
+    color: #666;
+}
+
+.container2 p {
+    color: darkgrey;
+    font-size: 14px;
+}
+
+.personal-info {
+    padding: 40px;
+    text-align: center;
+}
+
+.personal-info h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.personal-info h3 {
+    color: #B22222;
+    margin-bottom: 20px;
+}
+
+.personal-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.personal-info li {
+    margin-bottom: 10px;
+}
+
+.personal-info a {
+    color: #333;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.personal-info a:hover {
+    color: #B22222;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social i {
+    margin-right: 24px;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social i:hover {
+    color: #B22222;
+    transform: scale(1.2);
+}
